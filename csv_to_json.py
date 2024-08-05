@@ -3,8 +3,8 @@ import json
 import os
 
 # CSV dosyasının tam yolu
-csv_file_path = 'D:\Github\hopbala\geoip2_asn_list.csv.csv'
-json_file_path = 'D:\Github\hopbala\geoip_database.json'
+csv_file_path = '/opt/hopbala/eoip2_asn_list.csv.csv'
+json_file_path = '/opt/hopbala/geoip_database.json'
 
 # Dosya yolunun doğruluğunu kontrol etme
 if not os.path.exists(csv_file_path):
